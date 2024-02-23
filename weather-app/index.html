@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <h1>
+          Add Location
+        </h1>
+
+        <form action="" id="search-form">
+          <label for="search-term"> Enter city</label>
+          <div class="form-row">
+            <input type="text" 
+            placeholder="e.g Toronto" 
+            name="search-term" 
+            id="search-term" autofocus>
+
+            <button type="submit"> <img src="icons/plus-circle.svg" alt="Search Button"> </button>
+          </div>
+
+          <p class="form-msg"></p>
+        </form>
+      </header> 
+
+      <section> 
+        <ul class="cities">
+        </ul>
+      </section>
+
+    </div>
+    <script src="weather.js"></script>
+
+</body>
+</html>
